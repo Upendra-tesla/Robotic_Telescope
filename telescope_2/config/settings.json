@@ -1,0 +1,35 @@
+{
+    "camera": {
+        "default_resolution": "1280x720",
+        "default_fps": 30,
+        "image_save_path": "data/images/",
+        "video_save_path": "data/videos/",
+        "exposure": 100,
+        "white_balance": "auto"
+    },
+    "telescope": {
+        "altitude_min": 0.0,
+        "altitude_max": 90.0,
+        "azimuth_min": 0.0,
+        "azimuth_max": 360.0,
+        "park_altitude": 0.0,
+        "park_azimuth": 0.0
+    },
+    "ui": {
+        "theme": "dark",
+        "touch_mode": true,
+        "status_bar_update_rate": 1000,
+        "active_theme": "Dark (Default)"
+    },
+    "gps": {
+        "default_latitude": 40.7128,
+        "default_longitude": -74.006,
+        "use_gps_module": false
+    },
+    "gpio": {
+        "altitude_up": "17 (Pin 11)",
+        "altitude_down": "18 (Pin 12)",
+        "azimuth_left": "27 (Pin 13)",
+        "azimuth_right": "22 (Pin 15)"
+    }
+}
