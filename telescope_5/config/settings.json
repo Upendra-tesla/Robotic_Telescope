@@ -1,0 +1,23 @@
+{
+    "gpio": {
+        "alt_up": "GPIO17",
+        "alt_down": "GPIO18",
+        "azimuth_left": "GPIO27",
+        "azimuth_right": "GPIO23"
+    },
+    "telescope": {
+        "park_altitude": 0.0,
+        "park_azimuth": 0.0,
+        "max_speed": 1.0,
+        "latitude": 40.7128,
+        "longitude": -74.006
+    },
+    "camera": {
+        "default_resolution": "640x480",
+        "default_fps": 20,
+        "exposure": 500,
+        "white_balance": "auto",
+        "image_save_path": "data/images",
+        "video_save_path": "data/videos"
+    }
+}

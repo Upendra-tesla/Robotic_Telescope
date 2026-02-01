@@ -1,0 +1,9 @@
+PyQt5>=5.15.9          # GUI framework (64-bit Pi 5 compatible)
+picamera2>=0.3.10      # Pi 5 camera module (replaces legacy picamera)
+numpy>=1.26.4          # Numerical processing (Piwheels-optimized)
+astropy>=6.0.0         # Celestial coordinate calculations
+requests>=2.31.0       # API calls (GPS/Weather/DeepSeek)
+python-dotenv>=1.0.0   # Environment variable management
+psutil>=5.9.8          # System monitoring (temperature/CPU)
+RPi.GPIO>=0.7.1        # Pi 5 GPIO control (hardware PWM support)
+pigpio>=1.78           # Advanced motor control (Pi 5 hardware PWM)
