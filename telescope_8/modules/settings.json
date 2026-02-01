@@ -1,0 +1,176 @@
+{
+  "gpio": {
+    "altitude_up": 17,
+    "altitude_down": 18,
+    "azimuth_left": 22,
+    "azimuth_right": 23,
+    "pwm_frequency": 100,
+    "enable_physical_pins": true,
+    "available_pins": [
+      {
+        "gpio": 2,
+        "physical": 3
+      },
+      {
+        "gpio": 3,
+        "physical": 5
+      },
+      {
+        "gpio": 4,
+        "physical": 7
+      },
+      {
+        "gpio": 17,
+        "physical": 11
+      },
+      {
+        "gpio": 27,
+        "physical": 13
+      },
+      {
+        "gpio": 22,
+        "physical": 15
+      },
+      {
+        "gpio": 10,
+        "physical": 19
+      },
+      {
+        "gpio": 9,
+        "physical": 21
+      },
+      {
+        "gpio": 11,
+        "physical": 23
+      },
+      {
+        "gpio": 0,
+        "physical": 27
+      },
+      {
+        "gpio": 5,
+        "physical": 29
+      },
+      {
+        "gpio": 6,
+        "physical": 31
+      },
+      {
+        "gpio": 13,
+        "physical": 33
+      },
+      {
+        "gpio": 19,
+        "physical": 35
+      },
+      {
+        "gpio": 26,
+        "physical": 37
+      },
+      {
+        "gpio": 14,
+        "physical": 8
+      },
+      {
+        "gpio": 15,
+        "physical": 10
+      },
+      {
+        "gpio": 18,
+        "physical": 12
+      },
+      {
+        "gpio": 23,
+        "physical": 16
+      },
+      {
+        "gpio": 24,
+        "physical": 18
+      },
+      {
+        "gpio": 25,
+        "physical": 22
+      },
+      {
+        "gpio": 8,
+        "physical": 24
+      },
+      {
+        "gpio": 7,
+        "physical": 26
+      },
+      {
+        "gpio": 1,
+        "physical": 28
+      },
+      {
+        "gpio": 12,
+        "physical": 32
+      },
+      {
+        "gpio": 16,
+        "physical": 36
+      },
+      {
+        "gpio": 20,
+        "physical": 38
+      },
+      {
+        "gpio": 21,
+        "physical": 40
+      }
+    ]
+  },
+  "camera": {
+    "default_camera": 0,
+    "resolutions": [
+      "640x480",
+      "800x600",
+      "1280x720",
+      "1920x1080"
+    ],
+    "default_resolution": "640x480",
+    "video_duration": 10,
+    "fps": 30
+  },
+  "location": {
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "timezone": "America/New_York",
+    "altitude": 0
+  },
+  "ai": {
+    "mode": "cloud",
+    "deepseek_api_key": "",
+    "ollama_model": "deepseek-r1:1.5b",
+    "enable_auto_analysis": false
+  },
+  "telescope": {
+    "altitude_min": 0,
+    "altitude_max": 90,
+    "azimuth_min": 0,
+    "azimuth_max": 360,
+    "motor_speed": 5,
+    "auto_calibrate": true
+  },
+  "database": {
+    "log_limit": 1000,
+    "export_path": "./logs",
+    "auto_save": true,
+    "save_interval": 60
+  },
+  "ui": {
+    "theme": "dark",
+    "font_size": 12,
+    "responsive_layout": true,
+    "tab_order": [
+      "control",
+      "sensors",
+      "camera",
+      "sun",
+      "moon",
+      "database",
+      "ai"
+    ]
+  }
+}

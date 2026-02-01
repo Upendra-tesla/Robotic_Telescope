@@ -1,0 +1,40 @@
+{
+    "gpio": {
+        "alt_up": "GPIO17",
+        "alt_down": "GPIO18",
+        "azimuth_left": "GPIO27",
+        "azimuth_right": "GPIO23"
+    },
+    "telescope": {
+        "park_altitude": 0.0,
+        "park_azimuth": 0.0,
+        "max_speed": 1.0,
+        "latitude": 40.7128,
+        "longitude": -74.006
+    },
+    "gps": {
+        "lat": "40.7128\u00b0 N",
+        "lon": "-74.0060\u00b0 W"
+    },
+    "camera": {
+        "default_resolution": "640x480",
+        "default_fps": 20,
+        "exposure": 500,
+        "image_save_path": "data/images",
+        "video_save_path": "data/videos",
+        "ai_temp_path": "data/camera/temp",
+        "white_balance": "auto"
+    },
+    "ai": {
+        "deepseek_api_key": "YOUR_DEEPSEEK_API_KEY_HERE",
+        "model": "deepseek-chat",
+        "temperature": 0.7,
+        "max_tokens": 500
+    },
+    "ui": {
+        "min_window_width": 1000,
+        "min_window_height": 700,
+        "font_scale": 1.0,
+        "spacing_scale": 1.0
+    }
+}

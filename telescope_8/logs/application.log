@@ -1,0 +1,511 @@
+2026-01-26 00:04:57,868 - __main__ - INFO - ============================================================
+2026-01-26 00:04:57,868 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM
+2026-01-26 00:04:57,868 - __main__ - INFO - ============================================================
+2026-01-26 00:04:57,869 - __main__ - INFO - ✓ PyQt5 found
+2026-01-26 00:04:57,913 - __main__ - INFO - ✓ gpiozero found
+2026-01-26 00:04:58,820 - __main__ - INFO - ✓ opencv-python found
+2026-01-26 00:04:58,821 - __main__ - INFO - ✓ numpy found
+2026-01-26 00:04:58,848 - __main__ - INFO - ✓ astropy found
+2026-01-26 00:04:58,945 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:04:59,119 - __main__ - INFO - ✓ pandas found
+2026-01-26 00:04:59,204 - __main__ - INFO - ✓ requests found
+2026-01-26 00:04:59,302 - __main__ - INFO - ✓ matplotlib found
+2026-01-26 00:04:59,304 - __main__ - INFO - ✓ smbus2 found
+2026-01-26 00:04:59,304 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:04:59,320 - __main__ - INFO - ✓ I2C interface available
+2026-01-26 00:04:59,429 - __main__ - INFO - ✓ Camera detected
+2026-01-26 00:04:59,430 - __main__ - INFO - Loading main application...
+2026-01-26 00:04:59,482 - __main__ - ERROR - Failed to start application: cannot import name 'get_pin_display_name' from 'modules' (/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py)
+2026-01-26 00:06:48,781 - __main__ - INFO - ============================================================
+2026-01-26 00:06:48,782 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM
+2026-01-26 00:06:48,782 - __main__ - INFO - ============================================================
+2026-01-26 00:06:48,782 - __main__ - INFO - ✓ PyQt5 found
+2026-01-26 00:06:48,834 - __main__ - INFO - ✓ gpiozero found
+2026-01-26 00:06:49,734 - __main__ - INFO - ✓ opencv-python found
+2026-01-26 00:06:49,737 - __main__ - INFO - ✓ numpy found
+2026-01-26 00:06:49,765 - __main__ - INFO - ✓ astropy found
+2026-01-26 00:06:49,863 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:06:50,033 - __main__ - INFO - ✓ pandas found
+2026-01-26 00:06:50,119 - __main__ - INFO - ✓ requests found
+2026-01-26 00:06:50,218 - __main__ - INFO - ✓ matplotlib found
+2026-01-26 00:06:50,220 - __main__ - INFO - ✓ smbus2 found
+2026-01-26 00:06:50,221 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:06:50,236 - __main__ - INFO - ✓ I2C interface available
+2026-01-26 00:06:50,341 - __main__ - INFO - ✓ Camera detected
+2026-01-26 00:06:50,341 - __main__ - INFO - Loading main application...
+2026-01-26 00:06:51,032 - __main__ - INFO - ============================================================
+2026-01-26 00:06:51,033 - __main__ - INFO - Starting application...
+2026-01-26 00:06:51,033 - __main__ - INFO - ============================================================
+2026-01-26 00:41:27,122 - __main__ - INFO - ============================================================
+2026-01-26 00:41:27,123 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:41:27,123 - __main__ - INFO - ============================================================
+2026-01-26 00:41:27,123 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:41:27,169 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:41:28,090 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:41:28,091 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:41:28,119 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:41:28,219 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:41:28,389 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:41:28,476 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:41:28,573 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:41:28,575 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:41:28,576 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:41:28,576 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:41:28,590 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:41:28,600 - __main__ - ERROR - ✗ Failed to start pigpio daemon: Command '['sudo', 'pigpiod']' returned non-zero exit status 1.
+2026-01-26 00:41:28,601 - __main__ - WARNING - ⚠ Falling back to basic GPIO control - reduced precision
+2026-01-26 00:41:28,601 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:41:28,647 - __main__ - ERROR - Failed to start application: name 'false' is not defined
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 137, in main
+    from main import main as run_app
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 15, in <module>
+    from modules.altitude import AltitudeControlWidget
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py", line 84, in <module>
+    SETTINGS = load_settings()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py", line 28, in load_settings
+    "auto_record": false,
+                   ^^^^^
+NameError: name 'false' is not defined. Did you mean: 'False'?
+2026-01-26 00:44:18,610 - __main__ - INFO - ============================================================
+2026-01-26 00:44:18,610 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:44:18,610 - __main__ - INFO - ============================================================
+2026-01-26 00:44:18,611 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:44:18,664 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:44:19,589 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:44:19,591 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:44:19,621 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:44:19,731 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:44:19,920 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:44:20,013 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:44:20,117 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:44:20,120 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:44:20,120 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:44:20,120 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:44:20,137 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:44:20,145 - __main__ - ERROR - ✗ Failed to start pigpio daemon: Command '['sudo', 'pigpiod']' returned non-zero exit status 1.
+2026-01-26 00:44:20,145 - __main__ - WARNING - ⚠ Falling back to basic GPIO control - reduced precision
+2026-01-26 00:44:20,146 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:44:20,198 - modules.altitude - INFO - GPIOZero available - using real GPIO
+2026-01-26 00:44:20,204 - modules.azimuth - INFO - GPIOZero available - using real GPIO
+2026-01-26 00:44:20,884 - __main__ - INFO - ============================================================
+2026-01-26 00:44:20,885 - __main__ - INFO - APPLICATION STARTING - 800x480 TOUCHSCREEN MODE
+2026-01-26 00:44:20,885 - __main__ - INFO - ============================================================
+2026-01-26 00:44:21,154 - modules.altitude - ERROR - Failed to initialize altitude motor: failed to connect to localhost:8888
+2026-01-26 00:44:21,243 - modules.azimuth - ERROR - Failed to initialize azimuth motor: failed to connect to localhost:8888
+2026-01-26 00:44:21,481 - __main__ - ERROR - Failed to start application: 'default_camera'
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 144, in main
+    run_app()
+    ~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 587, in main
+    window = TelescopeMainWindow()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 40, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 93, in init_ui
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 200, in create_tabs
+    self.create_camera_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 241, in create_camera_tab
+    self.camera_widget = WebcamWidget()
+                         ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 221, in __init__
+    SETTINGS["camera"]["default_camera"],
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'default_camera'
+2026-01-26 00:46:13,373 - __main__ - INFO - ============================================================
+2026-01-26 00:46:13,374 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:46:13,374 - __main__ - INFO - ============================================================
+2026-01-26 00:46:13,374 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:46:13,425 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:46:14,320 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:46:14,320 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:46:14,347 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:46:14,442 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:46:14,614 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:46:14,700 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:46:14,798 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:46:14,800 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:46:14,800 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:46:14,801 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:46:14,818 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:46:14,827 - __main__ - ERROR - ✗ Failed to start pigpio daemon: Command '['sudo', 'pigpiod']' returned non-zero exit status 1.
+2026-01-26 00:46:14,828 - __main__ - WARNING - ⚠ Falling back to basic GPIO control - reduced precision
+2026-01-26 00:46:14,828 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:46:14,874 - __main__ - ERROR - Failed to start application: invalid syntax. Perhaps you forgot a comma? (__init__.py, line 29)
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 137, in main
+    from main import main as run_app
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 15, in <module>
+    from modules.altitude import AltitudeControlWidget
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py", line 29
+    "histogram_enabled": True  # Fixed: true → True
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2026-01-26 00:47:06,497 - __main__ - INFO - ============================================================
+2026-01-26 00:47:06,497 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:47:06,497 - __main__ - INFO - ============================================================
+2026-01-26 00:47:06,498 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:47:06,545 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:47:07,426 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:47:07,426 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:47:07,455 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:47:07,557 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:47:07,725 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:47:07,810 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:47:07,909 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:47:07,911 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:47:07,911 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:47:07,912 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:47:07,923 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:47:07,933 - __main__ - ERROR - ✗ Failed to start pigpio daemon: Command '['sudo', 'pigpiod']' returned non-zero exit status 1.
+2026-01-26 00:47:07,933 - __main__ - WARNING - ⚠ Falling back to basic GPIO control - reduced precision
+2026-01-26 00:47:07,933 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:47:07,977 - __main__ - ERROR - Failed to start application: invalid syntax. Perhaps you forgot a comma? (__init__.py, line 29)
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 137, in main
+    from main import main as run_app
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 15, in <module>
+    from modules.altitude import AltitudeControlWidget
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py", line 29
+    "histogram_enabled": True  # Fixed: true → True
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2026-01-26 00:50:04,765 - __main__ - INFO - ============================================================
+2026-01-26 00:50:04,765 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:50:04,766 - __main__ - INFO - ============================================================
+2026-01-26 00:50:04,766 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:50:04,848 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:50:05,761 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:50:05,761 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:50:05,788 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:50:05,889 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:50:06,061 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:50:06,146 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:50:06,243 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:50:06,245 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:50:06,245 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:50:06,246 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:50:06,264 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:50:06,273 - __main__ - INFO - ✓ Started pigpio daemon successfully
+2026-01-26 00:50:06,273 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:50:06,318 - __main__ - ERROR - Failed to start application: invalid syntax. Perhaps you forgot a comma? (__init__.py, line 29)
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 137, in main
+    from main import main as run_app
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 15, in <module>
+    from modules.altitude import AltitudeControlWidget
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py", line 29
+    "histogram_enabled": True  # Fixed: true → True
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2026-01-26 00:52:28,797 - __main__ - INFO - ============================================================
+2026-01-26 00:52:28,797 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - STARTUP
+2026-01-26 00:52:28,797 - __main__ - INFO - ============================================================
+2026-01-26 00:52:28,798 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:52:28,883 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:52:29,784 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:52:29,785 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:52:29,814 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:52:29,918 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:52:30,097 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:52:30,186 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:52:30,291 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:52:30,293 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:52:30,294 - __main__ - INFO - ✓ pigpio installed
+2026-01-26 00:52:30,294 - __main__ - INFO - ✓ Running on Raspberry Pi
+2026-01-26 00:52:30,312 - __main__ - WARNING - ⚠ pigpio daemon not running - starting it now
+2026-01-26 00:52:30,324 - __main__ - INFO - ✓ Started pigpio daemon successfully
+2026-01-26 00:52:30,324 - __main__ - INFO - 
+Loading main application...
+2026-01-26 00:52:30,375 - __main__ - ERROR - Failed to start application: cannot import name 'SETTINGS' from 'modules' (/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py)
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 137, in main
+    from main import main as run_app
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 15, in <module>
+    from modules.altitude import AltitudeControlWidget
+  File "/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_back.py", line 353, in _custom_import
+    module = self._original_import(*args, **kw)
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/altitude.py", line 13, in <module>
+    from . import SETTINGS, get_responsive_stylesheet, get_pin_display_name, save_settings
+ImportError: cannot import name 'SETTINGS' from 'modules' (/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/__init__.py)
+2026-01-26 00:55:07,512 - __main__ - INFO - ============================================================
+2026-01-26 00:55:07,513 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - PI 5 EDITION
+2026-01-26 00:55:07,513 - __main__ - INFO - ============================================================
+2026-01-26 00:55:07,514 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:55:07,594 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:55:08,439 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:55:08,442 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:55:08,468 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:55:08,567 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:55:08,735 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:55:08,822 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:55:08,922 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:55:08,924 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:55:08,924 - __main__ - INFO - ⚠ Pigpio skipped (incompatible with Raspberry Pi 5)
+2026-01-26 00:55:08,925 - __main__ - INFO - ✓ Running on Raspberry Pi (Pi 5 detected)
+2026-01-26 00:55:08,925 - __main__ - INFO - 
+Loading main application (800x480 mode)...
+2026-01-26 00:55:08,974 - modules.altitude - INFO - GPIOZero available - using real GPIO
+2026-01-26 00:55:08,981 - modules.azimuth - INFO - GPIOZero available - using real GPIO
+2026-01-26 00:55:09,624 - __main__ - INFO - ============================================================
+2026-01-26 00:55:09,625 - __main__ - INFO - APPLICATION STARTING - PI 5 COMPATIBLE MODE
+2026-01-26 00:55:09,625 - __main__ - INFO - ============================================================
+2026-01-26 00:55:09,706 - modules.altitude - ERROR - Failed to initialize altitude motor: 'PWMOutputDevice' object has no attribute 'start'
+2026-01-26 00:55:09,771 - modules.azimuth - ERROR - Failed to initialize azimuth motor: 'PWMOutputDevice' object has no attribute 'start'
+2026-01-26 00:55:09,974 - __main__ - ERROR - Failed to start application: 'video_duration'
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 123, in main
+    main_module.main()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 587, in main
+    window = TelescopeMainWindow()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 40, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 93, in init_ui
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 200, in create_tabs
+    self.create_camera_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 241, in create_camera_tab
+    self.camera_widget = WebcamWidget()
+                         ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 220, in __init__
+    self.camera_thread = CameraThread(
+                         ~~~~~~~~~~~~^
+        SETTINGS["camera"]["default_camera"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.default_resolution
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 32, in __init__
+    self.recording_duration = SETTINGS["camera"]["video_duration"]
+                              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'video_duration'
+2026-01-26 00:55:10,087 - modules.azimuth - ERROR - Azimuth thread error: 'AzimuthThread' does not have a signal with the signature azimuth_updated(double)
+2026-01-26 00:59:08,663 - __main__ - INFO - ============================================================
+2026-01-26 00:59:08,663 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - PI 5 EDITION
+2026-01-26 00:59:08,663 - __main__ - INFO - ============================================================
+2026-01-26 00:59:08,664 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 00:59:08,758 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 00:59:09,659 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 00:59:09,660 - __main__ - INFO - ✓ numpy installed
+2026-01-26 00:59:09,688 - __main__ - INFO - ✓ astropy installed
+2026-01-26 00:59:09,787 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 00:59:09,958 - __main__ - INFO - ✓ pandas installed
+2026-01-26 00:59:10,043 - __main__ - INFO - ✓ requests installed
+2026-01-26 00:59:10,139 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 00:59:10,141 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 00:59:10,142 - __main__ - INFO - ⚠ Pigpio skipped (incompatible with Raspberry Pi 5)
+2026-01-26 00:59:10,142 - __main__ - INFO - ✓ Running on Raspberry Pi (Pi 5 detected)
+2026-01-26 00:59:10,142 - __main__ - INFO - 
+Loading main application (800x480 mode)...
+2026-01-26 00:59:10,832 - __main__ - INFO - ============================================================
+2026-01-26 00:59:10,835 - __main__ - INFO - APPLICATION STARTING - PI 5 COMPATIBLE MODE
+2026-01-26 00:59:10,835 - __main__ - INFO - ============================================================
+2026-01-26 00:59:10,944 - modules.altitude - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 00:59:10,953 - modules.altitude - INFO - Altitude motor initialized (Pi 5) - Pins: IN1=17, IN2=27, ENA=22
+2026-01-26 00:59:10,954 - modules.altitude - INFO - Altitude thread started
+2026-01-26 00:59:10,979 - modules.azimuth - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 00:59:10,982 - modules.azimuth - INFO - Azimuth motor initialized (Pi 5) - Pins: IN1=23, IN2=24, ENA=25
+2026-01-26 00:59:10,982 - modules.azimuth - INFO - Azimuth thread started
+2026-01-26 00:59:11,033 - __main__ - ERROR - Failed to start application: 'video_duration'
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 123, in main
+    main_module.main()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 587, in main
+    window = TelescopeMainWindow()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 40, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 93, in init_ui
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 200, in create_tabs
+    self.create_camera_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 241, in create_camera_tab
+    self.camera_widget = WebcamWidget()
+                         ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 220, in __init__
+    self.camera_thread = CameraThread(
+                         ~~~~~~~~~~~~^
+        SETTINGS["camera"]["default_camera"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.default_resolution
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 32, in __init__
+    self.recording_duration = SETTINGS["camera"]["video_duration"]
+                              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'video_duration'
+2026-01-26 01:07:33,870 - __main__ - INFO - ============================================================
+2026-01-26 01:07:33,870 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - PI 5 EDITION
+2026-01-26 01:07:33,870 - __main__ - INFO - ============================================================
+2026-01-26 01:07:33,871 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 01:07:33,951 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 01:07:34,827 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 01:07:34,828 - __main__ - INFO - ✓ numpy installed
+2026-01-26 01:07:34,858 - __main__ - INFO - ✓ astropy installed
+2026-01-26 01:07:34,960 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 01:07:35,139 - __main__ - INFO - ✓ pandas installed
+2026-01-26 01:07:35,229 - __main__ - INFO - ✓ requests installed
+2026-01-26 01:07:35,333 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 01:07:35,335 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 01:07:35,335 - __main__ - INFO - ⚠ Pigpio skipped (incompatible with Raspberry Pi 5)
+2026-01-26 01:07:35,336 - __main__ - INFO - ✓ Running on Raspberry Pi (Pi 5 detected)
+2026-01-26 01:07:35,336 - __main__ - INFO - 
+Loading main application (800x480 mode)...
+2026-01-26 01:07:35,719 - __main__ - INFO - ============================================================
+2026-01-26 01:07:35,720 - __main__ - INFO - APPLICATION STARTING - PI 5 COMPATIBLE MODE
+2026-01-26 01:07:35,720 - __main__ - INFO - ============================================================
+2026-01-26 01:07:35,827 - modules.altitude - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:07:35,838 - modules.altitude - INFO - Altitude motor initialized (Pi 5) - Pins: IN1=17, IN2=27, ENA=22
+2026-01-26 01:07:35,839 - modules.altitude - INFO - Altitude thread started
+2026-01-26 01:07:35,866 - modules.azimuth - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:07:35,869 - modules.azimuth - INFO - Azimuth motor initialized (Pi 5) - Pins: IN1=23, IN2=24, ENA=25
+2026-01-26 01:07:35,869 - modules.azimuth - INFO - Azimuth thread started
+2026-01-26 01:07:35,919 - modules.sensor - ERROR - Sensor init failed: [Errno 121] Remote I/O error
+2026-01-26 01:07:35,922 - __main__ - ERROR - Failed to start application: name 'QGridLayout' is not defined
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 123, in main
+    main_module.main()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 587, in main
+    window = TelescopeMainWindow()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 40, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 93, in init_ui
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 200, in create_tabs
+    self.create_camera_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 241, in create_camera_tab
+    self.camera_widget = WebcamWidget()
+                         ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 255, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/webcam.py", line 272, in init_ui
+    cam_layout = QGridLayout()
+                 ^^^^^^^^^^^
+NameError: name 'QGridLayout' is not defined. Did you mean: 'QVBoxLayout'?
+2026-01-26 01:07:35,923 - modules.sensor - INFO - Sensor thread started (Pi 5 compatible)
+2026-01-26 01:10:23,858 - __main__ - INFO - ============================================================
+2026-01-26 01:10:23,858 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - PI 5 EDITION
+2026-01-26 01:10:23,858 - __main__ - INFO - ============================================================
+2026-01-26 01:10:23,859 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 01:10:23,933 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 01:10:24,816 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 01:10:24,817 - __main__ - INFO - ✓ numpy installed
+2026-01-26 01:10:24,844 - __main__ - INFO - ✓ astropy installed
+2026-01-26 01:10:24,939 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 01:10:25,110 - __main__ - INFO - ✓ pandas installed
+2026-01-26 01:10:25,196 - __main__ - INFO - ✓ requests installed
+2026-01-26 01:10:25,293 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 01:10:25,295 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 01:10:25,295 - __main__ - INFO - ⚠ Pigpio skipped (incompatible with Raspberry Pi 5)
+2026-01-26 01:10:25,296 - __main__ - INFO - ✓ Running on Raspberry Pi (Pi 5 detected)
+2026-01-26 01:10:25,296 - __main__ - INFO - 
+Loading main application (800x480 mode)...
+2026-01-26 01:10:25,669 - __main__ - INFO - ============================================================
+2026-01-26 01:10:25,669 - __main__ - INFO - APPLICATION STARTING - PI 5 COMPATIBLE MODE
+2026-01-26 01:10:25,669 - __main__ - INFO - ============================================================
+2026-01-26 01:10:25,786 - modules.altitude - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:10:25,796 - modules.altitude - INFO - Altitude motor initialized (Pi 5) - Pins: IN1=17, IN2=27, ENA=22
+2026-01-26 01:10:25,797 - modules.altitude - INFO - Altitude thread started
+2026-01-26 01:10:25,821 - modules.azimuth - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:10:25,824 - modules.azimuth - INFO - Azimuth motor initialized (Pi 5) - Pins: IN1=23, IN2=24, ENA=25
+2026-01-26 01:10:25,824 - modules.azimuth - INFO - Azimuth thread started
+2026-01-26 01:10:25,869 - modules.sensor - ERROR - Sensor init failed: [Errno 121] Remote I/O error
+2026-01-26 01:10:25,873 - modules.sensor - INFO - Sensor thread started (Pi 5 compatible)
+2026-01-26 01:10:26,398 - __main__ - ERROR - Failed to start application: 'save_interval'
+Traceback (most recent call last):
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/run.py", line 123, in main
+    main_module.main()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 587, in main
+    window = TelescopeMainWindow()
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 40, in __init__
+    self.init_ui()
+    ~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 93, in init_ui
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 206, in create_tabs
+    self.create_database_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/main.py", line 256, in create_database_tab
+    self.database_widget = DatabaseWidget()
+                           ~~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/database.py", line 130, in __init__
+    self.logging_thread = LoggingThread()
+                          ~~~~~~~~~~~~~^^
+  File "/home/Upendra/Desktop/ud_pyqt/telescope_8/modules/database.py", line 34, in __init__
+    self.save_interval = SETTINGS["database"]["save_interval"]
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'save_interval'
+2026-01-26 01:14:22,218 - __main__ - INFO - ============================================================
+2026-01-26 01:14:22,219 - __main__ - INFO - ROBOTIC TELESCOPE CONTROL SYSTEM - PI 5 EDITION
+2026-01-26 01:14:22,219 - __main__ - INFO - ============================================================
+2026-01-26 01:14:22,220 - __main__ - INFO - ✓ PyQt5 installed
+2026-01-26 01:14:22,303 - __main__ - INFO - ✓ gpiozero installed
+2026-01-26 01:14:23,141 - __main__ - INFO - ✓ opencv-python installed
+2026-01-26 01:14:23,141 - __main__ - INFO - ✓ numpy installed
+2026-01-26 01:14:23,169 - __main__ - INFO - ✓ astropy installed
+2026-01-26 01:14:23,274 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-01-26 01:14:23,468 - __main__ - INFO - ✓ pandas installed
+2026-01-26 01:14:23,560 - __main__ - INFO - ✓ requests installed
+2026-01-26 01:14:23,667 - __main__ - INFO - ✓ matplotlib installed
+2026-01-26 01:14:23,669 - __main__ - INFO - ✓ smbus2 installed
+2026-01-26 01:14:23,670 - __main__ - INFO - ⚠ Pigpio skipped (incompatible with Raspberry Pi 5)
+2026-01-26 01:14:23,670 - __main__ - INFO - ✓ Running on Raspberry Pi (Pi 5 detected)
+2026-01-26 01:14:23,670 - __main__ - INFO - 
+Loading main application (800x480 mode)...
+2026-01-26 01:14:24,070 - __main__ - INFO - ============================================================
+2026-01-26 01:14:24,071 - __main__ - INFO - APPLICATION STARTING - PI 5 COMPATIBLE MODE
+2026-01-26 01:14:24,071 - __main__ - INFO - ============================================================
+2026-01-26 01:14:24,187 - modules.altitude - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:14:24,196 - modules.altitude - INFO - Altitude motor initialized (Pi 5) - Pins: IN1=17, IN2=27, ENA=22
+2026-01-26 01:14:24,197 - modules.altitude - INFO - Altitude thread started
+2026-01-26 01:14:24,223 - modules.azimuth - INFO - GPIOZero available - using real GPIO (Pi 5 compatible)
+2026-01-26 01:14:24,227 - modules.azimuth - INFO - Azimuth motor initialized (Pi 5) - Pins: IN1=23, IN2=24, ENA=25
+2026-01-26 01:14:24,227 - modules.azimuth - INFO - Azimuth thread started
+2026-01-26 01:14:24,277 - modules.sensor - ERROR - Sensor init failed: [Errno 121] Remote I/O error
+2026-01-26 01:14:24,282 - modules.sensor - INFO - Sensor thread started (Pi 5 compatible)
+2026-01-26 01:14:25,203 - modules.database - INFO - Database initialized: /home/Upendra/Desktop/ud_pyqt/telescope_8/database/telescope_logs.db
+2026-01-26 01:14:25,205 - modules.database - INFO - Logging thread started (Pi 5 compatible)
+2026-01-26 01:14:34,460 - modules.webcam - INFO - Camera initialized (ID: 0, Res: 640x480)
